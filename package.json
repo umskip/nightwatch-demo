@@ -1,0 +1,51 @@
+{
+    "name": "nightwatch-demo",
+    "version": "4.0.1",
+    "description": "Browser based automated testing using Nightwatch.js and Selenium WebDriver",
+    "main": "index.js",
+    "scripts": {
+        "pretest": "node setup.js logs report screenshots",
+        "test:chrome": "cross-env NIGHTWATCH_ENV=chrome NIGHTWATCH_VERBOSE=false npm test",
+        "test:chrome-headless": "cross-env NIGHTWATCH_ENV=chromeHeadless NIGHTWATCH_VERBOSE=false npm test",
+        "test:firefox": "cross-env NIGHTWATCH_ENV=firefox npm test",
+        "test:firefox-headless": "cross-env NIGHTWATCH_ENV=firefoxHeadless NIGHTWATCH_VERBOSE=false npm test",
+        "test": "mkdirp report && cucumber-js --require-module @babel/register --require cucumber.conf.js --require step-definitions --format node_modules/cucumber-pretty --format json:report/cucumber_report.json",
+        "debug": "cross-env DEBUG=nightwatch-api NIGHTWATCH_ENV=chrome NIGHTWATCH_VERBOSE=true node --inspect ./node_modules/cucumber/bin/cucumber-js --require-module @babel/register --require cucumber.conf.js --require step-definitions --format node_modules/cucumber-pretty",
+        "test:dry": "npm test -- -p dry",
+        "test:rerun": "npm test -- -p rerun",
+        "test:progress": "npm test -- -p progress"
+    },
+    "repository": "https://github.com/umskip/nightwatch-demo.git",
+    "author": "dvelkovski",
+    "license": "MIT",
+    "devDependencies": {
+        "@babel/core": "^7.10.5",
+        "@babel/preset-env": "^7.10.4",
+        "@babel/register": "^7.10.5",
+        "chromedriver": "^89.0.0",
+        "selenium-server": "^3.141.59",
+        "cross-env": "^7.0.3",
+        "cucumber": "^6.0.5",
+        "cucumber-html-reporter": "^5.2.0",
+        "cucumber-junit-formatter": "^0.2.2",
+        "cucumber-pretty": "^6.0.0",
+        "dateformat": "^3.0.3",
+        "edgedriver": "^4.17134.1",
+        "geckodriver": "^1.22.2",
+        "lodash": "^4.17.15",
+        "minimist": "^1.2.0",
+        "mkdirp": "^1.0.4",
+        "moment": "^2.24.0",
+        "multiple-cucumber-html-reporter": "^1.16.2",
+        "natives": "^1.1.6",
+        "nightwatch": "^1.3.7",
+        "nightwatch-api": "^3.0.1",
+        "npm-run-all": "^4.1.5",
+        "reuse-cucumber-scenarios": "^1.1.7",
+        "through2": "^2.0.3"
+    },
+    "dependencies": {
+        "assert": "^2.0.0",
+        "request": "^2.88.0"
+    }
+}

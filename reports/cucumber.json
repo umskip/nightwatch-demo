@@ -1,0 +1,2736 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "T2: Commercial Vehicle - New Business With Two Drivers Annual Payment Cheque",
+    "line": 2,
+    "id": "t2:-commercial-vehicle---new-business-with-two-drivers-annual-payment-cheque",
+    "tags": [
+      {
+        "name": "@Smoke",
+        "line": 1
+      },
+      {
+        "name": "@Regression",
+        "line": 1
+      }
+    ],
+    "uri": "features\\MasterV\\CommercialVehicle\\1.NewBusiness_MTA\\T2-NBWithTwoDriversAnnualPaymentCheque.feature",
+    "elements": [
+      {
+        "id": "t2:-commercial-vehicle---new-business-with-two-drivers-annual-payment-cheque;commercial-vehicle-new-business---convert-to-policy-with-'annual-one-payment-in-full'-payment-plan-and-cheque-payment-method-with-two-vehicles",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Commercial Vehicle New Business - Convert to policy with 'Annual One Payment In Full' payment plan and Cheque payment method with Two Vehicles",
+        "tags": [
+          {
+            "name": "@Smoke",
+            "line": 1
+          },
+          {
+            "name": "@Regression",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "step_definitions\\_hooks.js:161"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the website page",
+            "match": {
+              "location": "node_modules\\@opengi\\autobot\\lib\\step_definitions\\given.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4563000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I maximize the browser window",
+            "match": {
+              "location": "node_modules\\@opengi\\autobot\\lib\\step_definitions\\when.js:315"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 129000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I navigate to the Login screen",
+            "match": {
+              "location": "step_definitions\\given.js:215"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I insert credentials for \"general.login\"",
+            "match": {
+              "location": "step_definitions\\when.js:698"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I click on \"submitButton\" from \"general.login\"",
+            "match": {
+              "location": "step_definitions\\when.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "\"general.home-page\".\"clientSearch\" item should be visible",
+            "match": {
+              "location": "node_modules\\@opengi\\autobot\\lib\\step_definitions\\then.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4950000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I clear the current session",
+            "match": {
+              "location": "node_modules\\@opengi\\autobot\\lib\\step_definitions\\when.js:343"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "\"general.base-page\".\"loadingIcon\" shouldnt be present",
+            "match": {
+              "location": "node_modules\\@opengi\\autobot\\lib\\step_definitions\\then.js:174"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 567000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "I navigate to the Search screen",
+            "match": {
+              "location": "step_definitions\\given.js:17"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I insert value \"T6\".\"productSelection\".\"clientData\" for \"general.home-page\".\"clientSearch\" element",
+            "match": {
+              "location": "step_definitions\\when.js:162"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I click on \"searchButtonQa\" from \"general.home-page\"",
+            "match": {
+              "location": "step_definitions\\when.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "\"general.base-page\".\"loadingIcon\" shouldnt be present",
+            "match": {
+              "location": "node_modules\\@opengi\\autobot\\lib\\step_definitions\\then.js:174"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 868000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "I click on \"createNewClientButton\" from \"general.home-page\"",
+            "match": {
+              "location": "step_definitions\\when.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "\"general.base-page\".\"loadingIcon\" shouldnt be present",
+            "match": {
+              "location": "node_modules\\@opengi\\autobot\\lib\\step_definitions\\then.js:174"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 130000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 24,
+            "name": "I navigate to the Product selection screen",
+            "match": {
+              "location": "step_definitions\\given.js:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "\"general.product-selection\".\"nextButton\" item should be visible",
+            "match": {
+              "location": "node_modules\\@opengi\\autobot\\lib\\step_definitions\\then.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 71000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "I select a list value of \"T6\".\"productSelection\".\"brandData\" for \"general.product-selection\".\"brand\"",
+            "match": {
+              "location": "step_definitions\\when.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 220000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "I select a list value of \"T6\".\"productSelection\".\"businessLineData\" for \"general.product-selection\".\"businessLine\"",
+            "match": {
+              "location": "step_definitions\\when.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 217000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I select a list value of \"T6\".\"productSelection\".\"agentData\" for \"general.product-selection\".\"agent\"",
+            "match": {
+              "location": "step_definitions\\when.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 207000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "I click on \"nextButton\" from \"general.product-selection\"",
+            "match": {
+              "location": "step_definitions\\when.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "\"general.base-page\".\"loadingIcon\" shouldnt be present",
+            "match": {
+              "location": "node_modules\\@opengi\\autobot\\lib\\step_definitions\\then.js:174"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1362000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 33,
+            "name": "I navigate to the Proposer Details screen",
+            "match": {
+              "location": "step_definitions\\given.js:37"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "I select Private Individual or Company and populate details from \"T2\" on \"general.proposer-details\" page",
+            "match": {
+              "location": "step_definitions\\when.js:263"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "I select a list value of \"T2\".\"proposerDetails\".\"creditCheckConsentData\" for \"general.proposer-details\".\"creditCheckConsent\"",
+            "match": {
+              "location": "step_definitions\\when.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1153000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "I insert value \"T2\".\"proposerDetails\".\"emailData\" for \"general.proposer-details\".\"email\" element",
+            "match": {
+              "location": "step_definitions\\when.js:162"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "I insert telephone number of \"T2\".\"proposerDetails\" for \"general.proposer-details\" page",
+            "match": {
+              "location": "step_definitions\\when.js:609"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 38,
+            "name": "I insert value \"T2\".\"proposerDetails\".\"housePostcodeData\" for \"general.proposer-details\".\"housePostcode\" element",
+            "match": {
+              "location": "step_definitions\\when.js:162"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "I click on \"findButton\" from \"general.base-page\"",
+            "match": {
+              "location": "step_definitions\\when.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
+            "name": "I select a list value of \"T2\".\"proposerDetails\".\"addressData\" for \"general.proposer-details\".\"selectAddress\"",
+            "match": {
+              "location": "step_definitions\\when.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2877000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "I select a list value of \"T2\".\"proposerDetails\".\"typeData\" for \"general.proposer-details\".\"houseDwellingType\"",
+            "match": {
+              "location": "step_definitions\\when.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 247000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "I select a list value of \"T2\".\"proposerDetails\".\"statusData\" for \"general.proposer-details\".\"houseDwellingStatus\"",
+            "match": {
+              "location": "step_definitions\\when.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 242000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "I get value \"T2\".\"proposerDetails\".\"businessDetailsData\" than click \"general.proposer-details\".\"commercialClientYes\" or \"commercialClientNo\" on \"general.base-page\" page",
+            "match": {
+              "location": "step_definitions\\when.js:282"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 44,
+            "name": "I click on \"nextButton\" from \"general.base-page\"",
+            "match": {
+              "location": "step_definitions\\when.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 45,
+            "name": "\"general.base-page\".\"loadingIcon\" item should be present",
+            "match": {
+              "location": "node_modules\\@opengi\\autobot\\lib\\step_definitions\\then.js:130"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 203000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 46,
+            "name": "\"general.base-page\".\"loadingIcon\" shouldnt be present",
+            "match": {
+              "location": "node_modules\\@opengi\\autobot\\lib\\step_definitions\\then.js:174"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2243000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 49,
+            "name": "I navigate to the Business Details screen",
+            "match": {
+              "location": "step_definitions\\given.js:350"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 50,
+            "name": "I get value \"T2\".\"businessDetails\".\"businessDetailsVATRegisteredData\" than click \"general.business-details\".\"businessDetailsVATRegisteredYes\" or \"businessDetailsVATRegisteredNo\" on \"general.base-page\" page",
+            "match": {
+              "location": "step_definitions\\when.js:282"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 51,
+            "name": "I get value \"T2\".\"businessDetails\".\"businessDetailsERNExemptData\" than click \"general.business-details\".\"businessDetailsERNExemptYes\" or \"businessDetailsERNExemptNo\" on \"general.base-page\" page",
+            "match": {
+              "location": "step_definitions\\when.js:282"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 52,
+            "name": "I insert value \"T2\".\"businessDetails\".\"businessDetailsReferenceData\" for \"general.business-details\".\"businessDetailsReference\" element",
+            "match": {
+              "location": "step_definitions\\when.js:162"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 53,
+            "name": "I click on \"nextButton\" from \"general.base-page\"",
+            "match": {
+              "location": "step_definitions\\when.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 54,
+            "name": "\"general.base-page\".\"loadingIcon\" item should be present",
+            "match": {
+              "location": "node_modules\\@opengi\\autobot\\lib\\step_definitions\\then.js:130"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1259000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 55,
+            "name": "\"general.base-page\".\"loadingIcon\" shouldnt be present",
+            "match": {
+              "location": "node_modules\\@opengi\\autobot\\lib\\step_definitions\\then.js:174"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 545000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 58,
+            "name": "I navigate to the Consent Screen",
+            "match": {
+              "location": "step_definitions\\given.js:57"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 59,
+            "name": "\"general.base-page\".\"nextButton\" item should be visible",
+            "match": {
+              "location": "node_modules\\@opengi\\autobot\\lib\\step_definitions\\then.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 60,
+            "name": "I wait for \"1\" seconds",
+            "match": {
+              "location": "node_modules\\@opengi\\autobot\\lib\\step_definitions\\when.js:287"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1003000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 61,
+            "name": "I click on \"nextButton\" from \"general.base-page\"",
+            "match": {
+              "location": "step_definitions\\when.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 62,
+            "name": "\"general.base-page\".\"loadingIcon\" shouldnt be present",
+            "match": {
+              "location": "node_modules\\@opengi\\autobot\\lib\\step_definitions\\then.js:174"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 787000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 65,
+            "name": "I navigate to the Driver Details screen",
+            "match": {
+              "location": "step_definitions\\given.js:67"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 66,
+            "name": "I select a list value of \"T2\".\"driverDetailsCV\".\"title\" for \"commercial-vehicle.driver-details\".\"title\"",
+            "match": {
+              "location": "step_definitions\\when.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 233000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 67,
+            "name": "I insert value \"T2\".\"driverDetailsCV\".\"forename\" for \"commercial-vehicle.driver-details\".\"forename\" element",
+            "match": {
+              "location": "step_definitions\\when.js:162"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 68,
+            "name": "I insert value \"T2\".\"driverDetailsCV\".\"surname\" for \"commercial-vehicle.driver-details\".\"surname\" element",
+            "match": {
+              "location": "step_definitions\\when.js:162"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 69,
+            "name": "I set \"commercial-vehicle.driver-details\".\"dateOfBirthDD\", \"dateOfBirthMM\", \"dateOfBirthYYYY\" with -1 days, 0 months and -28 years on \"general.base-page\" page",
+            "match": {
+              "location": "step_definitions\\when.js:376"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 70,
+            "name": "I select a list value of \"T2\".\"driverDetailsCV\".\"maritalStatus\" for \"commercial-vehicle.driver-details\".\"maritalStatus\"",
+            "match": {
+              "location": "step_definitions\\when.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2139000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 71,
+            "name": "I select a list value of \"T2\".\"driverDetailsCV\".\"relationshipToProposer\" for \"commercial-vehicle.driver-details\".\"relationshipToProposer\"",
+            "match": {
+              "location": "step_definitions\\when.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 241000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 72,
+            "name": "I wait for \"1\" seconds",
+            "match": {
+              "location": "node_modules\\@opengi\\autobot\\lib\\step_definitions\\when.js:287"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1007000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 73,
+            "name": "I get value from \"T2\" for UK resident Data on \"commercial-vehicle.driver-details\" page",
+            "match": {
+              "location": "step_definitions\\when.js:351"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 74,
+            "name": "I get value \"T2\".\"driverDetailsCV\".\"mainDriver\" than click \"commercial-vehicle.driver-details\".\"isThePersonMainDriverYes\" or \"isThePersonMainDriverNo\" on \"general.base-page\" page",
+            "match": {
+              "location": "step_definitions\\when.js:282"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 75,
+            "name": "I get value \"T2\".\"driverDetailsCV\".\"hazardousSites\" than click \"commercial-vehicle.driver-details\".\"visitHazardousSitesYes\" or \"visitHazardousSitesNo\" on \"general.base-page\" page",
+            "match": {
+              "location": "step_definitions\\when.js:282"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 76,
+            "name": "I get value \"T2\".\"driverDetailsCV\".\"businessHavePublicLiability\" than click \"commercial-vehicle.driver-details\".\"businessHavePublicLiabilityYes\" or \"businessHavePublicLiabilityNo\" on \"general.base-page\" page",
+            "match": {
+              "location": "step_definitions\\when.js:282"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 77,
+            "name": "I select a list value of \"T2\".\"driverDetailsCV\".\"vehicleUse\" for \"commercial-vehicle.driver-details\".\"vehicleUse\"",
+            "match": {
+              "location": "step_definitions\\when.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 668000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 80,
+            "name": "I click on \"addOccupationbutton\" from \"commercial-vehicle.driver-details\"",
+            "match": {
+              "location": "step_definitions\\when.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 81,
+            "name": "I insert value \"T2\".\"driverDetailsCV\".\"occupation\" for \"commercial-vehicle.driver-details\".\"occupationType\" element",
+            "match": {
+              "location": "step_definitions\\when.js:162"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 82,
+            "name": "I wait for \"1\" seconds",
+            "match": {
+              "location": "node_modules\\@opengi\\autobot\\lib\\step_definitions\\when.js:287"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1839000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 83,
+            "name": "I send the Enter key to \"commercial-vehicle.driver-details\".\"occupationType\"",
+            "match": {
+              "location": "step_definitions\\when.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 84,
+            "name": "I click on \"occupationType\" from \"commercial-vehicle.driver-details\"",
+            "match": {
+              "location": "step_definitions\\when.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 85,
+            "name": "I insert value \"T2\".\"driverDetailsCV\".\"employersBusiness\" for \"commercial-vehicle.driver-details\".\"employersBusiness\" element",
+            "match": {
+              "location": "step_definitions\\when.js:162"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 86,
+            "name": "I wait for \"1\" seconds",
+            "match": {
+              "location": "node_modules\\@opengi\\autobot\\lib\\step_definitions\\when.js:287"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1390000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 87,
+            "name": "I send the Enter key to \"commercial-vehicle.driver-details\".\"employersBusiness\"",
+            "match": {
+              "location": "step_definitions\\when.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 88,
+            "name": "I click on \"employersBusiness\" from \"commercial-vehicle.driver-details\"",
+            "match": {
+              "location": "step_definitions\\when.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 89,
+            "name": "I select a list value of \"T2\".\"driverDetailsCV\".\"employmentStatus\" for \"commercial-vehicle.driver-details\".\"employmentStatus\"",
+            "match": {
+              "location": "step_definitions\\when.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 333000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 90,
+            "name": "I click on \"fullTime\" from \"commercial-vehicle.driver-details\"",
+            "match": {
+              "location": "step_definitions\\when.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 91,
+            "name": "I click on \"addOccupationButtonBlade\" from \"commercial-vehicle.driver-details\"",
+            "match": {
+              "location": "step_definitions\\when.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 92,
+            "name": "I click on \"addOccupationCloseButtonBlade\" from \"commercial-vehicle.driver-details\"",
+            "match": {
+              "location": "step_definitions\\when.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 95,
+            "name": "I select a list value of \"T2\".\"driverDetailsCV\".\"licenceType\" for \"commercial-vehicle.driver-details\".\"licenceType\"",
+            "match": {
+              "location": "step_definitions\\when.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 574000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 96,
+            "name": "I select a list value of \"T2\".\"driverDetailsCV\".\"UKoriginOfIssue\" for \"commercial-vehicle.driver-details\".\"ukOriginOfIssue\"",
+            "match": {
+              "location": "step_definitions\\when.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 236000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 97,
+            "name": "I get value \"T2\".\"driverDetailsCV\".\"DLNcheckAuthorised\" and click \"commercial-vehicle.driver-details\".\"dlnCheckAuthorisedNo\", \"dlnCheckAuthorisedNotAsked\" or \"dlnCheckAuthorisedYes\" on \"general.base-page\" page",
+            "match": {
+              "location": "step_definitions\\when.js:302"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 98,
+            "name": "I set \"commercial-vehicle.driver-details\".\"dateCurrentLicenceObtainedDD\", \"dateCurrentLicenceObtainedMM\", \"dateCurrentLicenceObtainedYYYY\" with -1 days, 0 months and -2 years on \"general.base-page\" page",
+            "match": {
+              "location": "step_definitions\\when.js:376"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 99,
+            "name": "I select a list value of \"T2\".\"driverDetailsCV\".\"restrictions\" for \"commercial-vehicle.driver-details\".\"restrictions\"",
+            "match": {
+              "location": "step_definitions\\when.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1785000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 100,
+            "name": "I click on \"save\" from \"general.base-page\"",
+            "match": {
+              "location": "step_definitions\\when.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 101,
+            "name": "\"general.base-page\".\"loadingIcon\" shouldnt be present",
+            "match": {
+              "location": "node_modules\\@opengi\\autobot\\lib\\step_definitions\\then.js:174"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 131000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 104,
+            "name": "I get value \"T2\".\"driverDetailsCV\".\"accessToOtherVehicles\" than click \"commercial-vehicle.driver-details\".\"accessToOtherVehiclesYes\" or \"accessToOtherVehiclesNo\" on \"general.base-page\" page",
+            "match": {
+              "location": "step_definitions\\when.js:282"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 105,
+            "name": "I insert value \"T2\".\"driverDetailsCV\".\"numberOfOtherVehiclesDriven\" for \"commercial-vehicle.driver-details\".\"vehicleAvailabilityFamily\" element",
+            "match": {
+              "location": "step_definitions\\when.js:162"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 106,
+            "name": "I get value \"T2\".\"driverDetailsCV\".\"anyCountyCourtJudgements\" than click \"commercial-vehicle.driver-details\".\"anyCountyCourtJudgementsYes\" or \"anyCountyCourtJudgementsNo\" on \"general.base-page\" page",
+            "match": {
+              "location": "step_definitions\\when.js:282"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 107,
+            "name": "I get value \"T2\".\"driverDetailsCV\".\"everBeenConvictedOfAnyCriminalOffence\" than click \"commercial-vehicle.driver-details\".\"beenConvictedOfAnyCriminalOffenceYes\" or \"beenConvictedOfAnyCriminalOffenceNo\" on \"general.base-page\" page",
+            "match": {
+              "location": "step_definitions\\when.js:282"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 108,
+            "name": "I get value \"T2\".\"driverDetailsCV\".\"everBeenRefusedCover\" than click \"commercial-vehicle.driver-details\".\"everBeenRefusedCoverYes\" or \"everBeenRefusedCoverNo\" on \"general.base-page\" page",
+            "match": {
+              "location": "step_definitions\\when.js:282"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 109,
+            "name": "I get value \"T2\".\"driverDetailsCV\".\"everHadTermsApplied\" than click \"commercial-vehicle.driver-details\".\"everHadTermsAppliedYes\" or \"everHadTermsAppliedNo\" on \"general.base-page\" page",
+            "match": {
+              "location": "step_definitions\\when.js:282"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 110,
+            "name": "I click on \"save\" from \"general.base-page\"",
+            "match": {
+              "location": "step_definitions\\when.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 111,
+            "name": "\"general.base-page\".\"loadingIcon\" shouldnt be present",
+            "match": {
+              "location": "node_modules\\@opengi\\autobot\\lib\\step_definitions\\then.js:174"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2341000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 114,
+            "name": "Im on to the Driver Details summary screen",
+            "match": {
+              "location": "step_definitions\\given.js:77"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 115,
+            "name": "I click on \"addDriverButton\" from \"commercial-vehicle.driver-details\"",
+            "match": {
+              "location": "step_definitions\\when.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 116,
+            "name": "I wait for \"1\" seconds",
+            "match": {
+              "location": "node_modules\\@opengi\\autobot\\lib\\step_definitions\\when.js:287"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1191000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 117,
+            "name": "I select a list value of \"T2\".\"driverDetailsCV\".\"title\" for \"commercial-vehicle.driver-details\".\"title\"",
+            "match": {
+              "location": "step_definitions\\when.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 222000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 118,
+            "name": "I insert value \"T2\".\"driverDetailsCV\".\"forename\" for \"commercial-vehicle.driver-details\".\"forename\" element",
+            "match": {
+              "location": "step_definitions\\when.js:162"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 119,
+            "name": "I insert value \"T2\".\"driverDetailsCV\".\"surname\" for \"commercial-vehicle.driver-details\".\"surname\" element",
+            "match": {
+              "location": "step_definitions\\when.js:162"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 120,
+            "name": "I set \"commercial-vehicle.driver-details\".\"dateOfBirthDD\", \"dateOfBirthMM\", \"dateOfBirthYYYY\" with -1 days, 0 months and -30 years on \"general.base-page\" page",
+            "match": {
+              "location": "step_definitions\\when.js:376"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 121,
+            "name": "I wait for \"1\" seconds",
+            "match": {
+              "location": "node_modules\\@opengi\\autobot\\lib\\step_definitions\\when.js:287"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2926000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 122,
+            "name": "I select a list value of \"T2\".\"driverDetailsCV\".\"maritalStatus\" for \"commercial-vehicle.driver-details\".\"maritalStatus\"",
+            "match": {
+              "location": "step_definitions\\when.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 248000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 123,
+            "name": "I select a list value of \"T2\".\"driverDetailsCV\".\"relationshipToProposer\" for \"commercial-vehicle.driver-details\".\"relationshipToProposer\"",
+            "match": {
+              "location": "step_definitions\\when.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 256000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 124,
+            "name": "I get value \"T2\".\"driverDetailsCV\".\"UKresidentFromBirth\" than click \"commercial-vehicle.driver-details\".\"ukResidentFromBirthYes\" or \"ukResidentFromBirthNo\" on \"general.base-page\" page",
+            "match": {
+              "location": "step_definitions\\when.js:282"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 125,
+            "name": "I get value \"T2\".\"driverDetailsCV\".\"additionalMainDriver\" than click \"commercial-vehicle.driver-details\".\"isThePersonMainDriverYes\" or \"isThePersonMainDriverNo\" on \"general.base-page\" page",
+            "match": {
+              "location": "step_definitions\\when.js:282"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 126,
+            "name": "I get value \"T2\".\"driverDetailsCV\".\"hazardousSites\" than click \"commercial-vehicle.driver-details\".\"visitHazardousSitesYes\" or \"visitHazardousSitesNo\" on \"general.base-page\" page",
+            "match": {
+              "location": "step_definitions\\when.js:282"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 127,
+            "name": "I get value \"T2\".\"driverDetailsCV\".\"businessHavePublicLiability\" than click \"commercial-vehicle.driver-details\".\"businessHavePublicLiabilityYes\" or \"businessHavePublicLiabilityNo\" on \"general.base-page\" page",
+            "match": {
+              "location": "step_definitions\\when.js:282"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 128,
+            "name": "I select a list value of \"T2\".\"driverDetailsCV\".\"vehicleUse\" for \"commercial-vehicle.driver-details\".\"vehicleUse\"",
+            "match": {
+              "location": "step_definitions\\when.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 675000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 131,
+            "name": "I click on \"addOccupationbutton\" from \"commercial-vehicle.driver-details\"",
+            "match": {
+              "location": "step_definitions\\when.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 132,
+            "name": "I insert value \"T2\".\"driverDetailsCV\".\"occupation\" for \"commercial-vehicle.driver-details\".\"occupationType\" element",
+            "match": {
+              "location": "step_definitions\\when.js:162"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 133,
+            "name": "I wait for \"1\" seconds",
+            "match": {
+              "location": "node_modules\\@opengi\\autobot\\lib\\step_definitions\\when.js:287"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1805000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 134,
+            "name": "I send the Enter key to \"commercial-vehicle.driver-details\".\"occupationType\"",
+            "match": {
+              "location": "step_definitions\\when.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 135,
+            "name": "I click on \"occupationType\" from \"commercial-vehicle.driver-details\"",
+            "match": {
+              "location": "step_definitions\\when.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 136,
+            "name": "I insert value \"T2\".\"driverDetailsCV\".\"employersBusiness\" for \"commercial-vehicle.driver-details\".\"employersBusiness\" element",
+            "match": {
+              "location": "step_definitions\\when.js:162"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 137,
+            "name": "I wait for \"1\" seconds",
+            "match": {
+              "location": "node_modules\\@opengi\\autobot\\lib\\step_definitions\\when.js:287"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1386000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 138,
+            "name": "I send the Enter key to \"commercial-vehicle.driver-details\".\"employersBusiness\"",
+            "match": {
+              "location": "step_definitions\\when.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 139,
+            "name": "I click on \"employersBusiness\" from \"commercial-vehicle.driver-details\"",
+            "match": {
+              "location": "step_definitions\\when.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 140,
+            "name": "I select a list value of \"T2\".\"driverDetailsCV\".\"employmentStatus\" for \"commercial-vehicle.driver-details\".\"employmentStatus\"",
+            "match": {
+              "location": "step_definitions\\when.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 345000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 141,
+            "name": "I click on \"fullTime\" from \"commercial-vehicle.driver-details\"",
+            "match": {
+              "location": "step_definitions\\when.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 142,
+            "name": "I click on \"addOccupationButtonBlade\" from \"commercial-vehicle.driver-details\"",
+            "match": {
+              "location": "step_definitions\\when.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 143,
+            "name": "I click on \"addOccupationCloseButtonBlade\" from \"commercial-vehicle.driver-details\"",
+            "match": {
+              "location": "step_definitions\\when.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 146,
+            "name": "I select a list value of \"T2\".\"driverDetailsCV\".\"licenceType\" for \"commercial-vehicle.driver-details\".\"licenceType\"",
+            "match": {
+              "location": "step_definitions\\when.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 585000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 147,
+            "name": "I select a list value of \"T2\".\"driverDetailsCV\".\"UKoriginOfIssue\" for \"commercial-vehicle.driver-details\".\"ukOriginOfIssue\"",
+            "match": {
+              "location": "step_definitions\\when.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 276000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 148,
+            "name": "I get value \"T2\".\"driverDetailsCV\".\"DLNcheckAuthorised\" and click \"commercial-vehicle.driver-details\".\"dlnCheckAuthorisedNo\", \"dlnCheckAuthorisedNotAsked\" or \"dlnCheckAuthorisedYes\" on \"general.base-page\" page",
+            "match": {
+              "location": "step_definitions\\when.js:302"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 149,
+            "name": "I set \"commercial-vehicle.driver-details\".\"dateCurrentLicenceObtainedDD\", \"dateCurrentLicenceObtainedMM\", \"dateCurrentLicenceObtainedYYYY\" with -1 days, 0 months and -2 years on \"general.base-page\" page",
+            "match": {
+              "location": "step_definitions\\when.js:376"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 150,
+            "name": "I select a list value of \"T2\".\"driverDetailsCV\".\"restrictions\" for \"commercial-vehicle.driver-details\".\"restrictions\"",
+            "match": {
+              "location": "step_definitions\\when.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1780000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 151,
+            "name": "I click on \"save\" from \"general.base-page\"",
+            "match": {
+              "location": "step_definitions\\when.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 152,
+            "name": "\"general.base-page\".\"loadingIcon\" shouldnt be present",
+            "match": {
+              "location": "node_modules\\@opengi\\autobot\\lib\\step_definitions\\then.js:174"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 129000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 155,
+            "name": "I get value \"T2\".\"driverDetailsCV\".\"accessToOtherVehicles\" than click \"commercial-vehicle.driver-details\".\"accessToOtherVehiclesYes\" or \"accessToOtherVehiclesNo\" on \"general.base-page\" page",
+            "match": {
+              "location": "step_definitions\\when.js:282"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 156,
+            "name": "I insert value \"T2\".\"driverDetailsCV\".\"numberOfOtherVehiclesDriven\" for \"commercial-vehicle.driver-details\".\"vehicleAvailabilityFamily\" element",
+            "match": {
+              "location": "step_definitions\\when.js:162"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 157,
+            "name": "I get value \"T2\".\"driverDetailsCV\".\"anyCountyCourtJudgements\" than click \"commercial-vehicle.driver-details\".\"anyCountyCourtJudgementsYes\" or \"anyCountyCourtJudgementsNo\" on \"general.base-page\" page",
+            "match": {
+              "location": "step_definitions\\when.js:282"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 158,
+            "name": "I get value \"T2\".\"driverDetailsCV\".\"everBeenConvictedOfAnyCriminalOffence\" than click \"commercial-vehicle.driver-details\".\"beenConvictedOfAnyCriminalOffenceYes\" or \"beenConvictedOfAnyCriminalOffenceNo\" on \"general.base-page\" page",
+            "match": {
+              "location": "step_definitions\\when.js:282"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 159,
+            "name": "I get value \"T2\".\"driverDetailsCV\".\"everBeenRefusedCover\" than click \"commercial-vehicle.driver-details\".\"everBeenRefusedCoverYes\" or \"everBeenRefusedCoverNo\" on \"general.base-page\" page",
+            "match": {
+              "location": "step_definitions\\when.js:282"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 160,
+            "name": "I get value \"T2\".\"driverDetailsCV\".\"everHadTermsApplied\" than click \"commercial-vehicle.driver-details\".\"everHadTermsAppliedYes\" or \"everHadTermsAppliedNo\" on \"general.base-page\" page",
+            "match": {
+              "location": "step_definitions\\when.js:282"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 161,
+            "name": "I click on \"save\" from \"general.base-page\"",
+            "match": {
+              "location": "step_definitions\\when.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 162,
+            "name": "\"general.base-page\".\"loadingIcon\" shouldnt be present",
+            "match": {
+              "location": "node_modules\\@opengi\\autobot\\lib\\step_definitions\\then.js:174"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1895000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 163,
+            "name": "I click on \"nextButton\" from \"general.base-page\"",
+            "match": {
+              "location": "step_definitions\\when.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 164,
+            "name": "\"general.base-page\".\"loadingIcon\" shouldnt be present",
+            "match": {
+              "location": "node_modules\\@opengi\\autobot\\lib\\step_definitions\\then.js:174"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1316000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 167,
+            "name": "I navigate to the Vehicle Details screen",
+            "match": {
+              "location": "step_definitions\\given.js:87"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 168,
+            "name": "I wait for \"1\" seconds",
+            "match": {
+              "location": "node_modules\\@opengi\\autobot\\lib\\step_definitions\\when.js:287"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1001000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 169,
+            "name": "I click on \"enterVehicleManually\" from \"commercial-vehicle.vehicle-details\"",
+            "match": {
+              "location": "step_definitions\\when.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 170,
+            "name": "\"commercial-vehicle.vehicle-details\".\"vehicleMake\" item should be visible",
+            "match": {
+              "location": "node_modules\\@opengi\\autobot\\lib\\step_definitions\\then.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 153000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 171,
+            "name": "I insert value \"T2\".\"vehicleDetailsCV\".\"make\" for \"commercial-vehicle.vehicle-details\".\"vehicleMake\" element",
+            "match": {
+              "location": "step_definitions\\when.js:162"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 172,
+            "name": "I insert value \"T2\".\"vehicleDetailsCV\".\"model\" for \"commercial-vehicle.vehicle-details\".\"vehicleModel\" element",
+            "match": {
+              "location": "step_definitions\\when.js:162"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 173,
+            "name": "I click on \"findModelButton\" from \"commercial-vehicle.vehicle-details\"",
+            "match": {
+              "location": "step_definitions\\when.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 174,
+            "name": "\"commercial-vehicle.vehicle-details\".\"vehicleMakeTable\" item should be visible",
+            "match": {
+              "location": "node_modules\\@opengi\\autobot\\lib\\step_definitions\\then.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1154000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 175,
+            "name": "I click on \"loadMoreButton\" which has \"Load More\" text from \"commercial-vehicle.vehicle-details\"",
+            "match": {
+              "location": "step_definitions\\when.js:76"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 176,
+            "name": "I select \"T2\".\"vehicleDetailsCV\".\"cc\" element from \"commercial-vehicle.vehicle-details\" table",
+            "match": {
+              "location": "step_definitions\\when.js:129"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 177,
+            "name": "I get value \"T2\".\"vehicleDetailsCV\".\"leftHandDrive\" than click \"commercial-vehicle.vehicle-details\".\"leftHandDriverYes\" or \"leftHandDriverNo\" on \"general.base-page\" page",
+            "match": {
+              "location": "step_definitions\\when.js:282"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 178,
+            "name": "I insert value \"T2\".\"vehicleDetailsCV\".\"numberOfSeats\" for \"commercial-vehicle.vehicle-details\".\"numberOfSeats\" element",
+            "match": {
+              "location": "step_definitions\\when.js:162"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 179,
+            "name": "I insert value \"T2\".\"vehicleDetailsCV\".\"grossVehicleWeightKg\" for \"commercial-vehicle.vehicle-details\".\"grossVehicleWeightKg\" element",
+            "match": {
+              "location": "step_definitions\\when.js:162"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 180,
+            "name": "I insert value \"T2\".\"vehicleDetailsCV\".\"carryingCapacityKg\" for \"commercial-vehicle.vehicle-details\".\"carryingCapacityKg\" element",
+            "match": {
+              "location": "step_definitions\\when.js:162"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 181,
+            "name": "I set \"commercial-vehicle.vehicle-details\".\"registeredDateDay\", \"registeredDateMonth\", \"registeredDateYear\" with -10 days, 0 months and -19 years on \"general.base-page\" page",
+            "match": {
+              "location": "step_definitions\\when.js:376"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 182,
+            "name": "I insert value \"T2\".\"vehicleDetailsCV\".\"pricePaid\" for \"commercial-vehicle.vehicle-details\".\"pricePaid\" element",
+            "match": {
+              "location": "step_definitions\\when.js:162"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 183,
+            "name": "I insert value \"T2\".\"vehicleDetailsCV\".\"carValue\" for \"commercial-vehicle.vehicle-details\".\"carValue\" element",
+            "match": {
+              "location": "step_definitions\\when.js:162"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 184,
+            "name": "I set \"commercial-vehicle.vehicle-details\".\"datePurchasedDay\", \"datePurchasedMonth\", \"datePurchasedYear\" with -9 days, 0 months and -19 years on \"general.base-page\" page",
+            "match": {
+              "location": "step_definitions\\when.js:376"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 185,
+            "name": "I insert value \"T2\".\"vehicleDetailsCV\".\"annualMileage\" for \"commercial-vehicle.vehicle-details\".\"annualMilleage\" element",
+            "match": {
+              "location": "step_definitions\\when.js:162"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 186,
+            "name": "I insert value \"T2\".\"vehicleDetailsCV\".\"businessMileage\" for \"commercial-vehicle.vehicle-details\".\"businessMileage\" element",
+            "match": {
+              "location": "step_definitions\\when.js:162"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 187,
+            "name": "I insert value \"T2\".\"vehicleDetailsCV\".\"currentMileage\" for \"commercial-vehicle.vehicle-details\".\"currentMileage\" element",
+            "match": {
+              "location": "step_definitions\\when.js:162"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 188,
+            "name": "I get value \"T2\".\"vehicleDetailsCV\".\"QPlated\" than click \"commercial-vehicle.vehicle-details\".\"qPlatedYes\" or \"qPlatedNo\" on \"general.base-page\" page",
+            "match": {
+              "location": "step_definitions\\when.js:282"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 189,
+            "name": "I get value \"T2\".\"vehicleDetailsCV\".\"imported\" than click \"commercial-vehicle.vehicle-details\".\"importedYes\" or \"importedNo\" on \"general.base-page\" page",
+            "match": {
+              "location": "step_definitions\\when.js:282"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 190,
+            "name": "I select a list value of \"T2\".\"vehicleDetailsCV\".\"registeredOwner\" for \"commercial-vehicle.vehicle-details\".\"registeredOwner\"",
+            "match": {
+              "location": "step_definitions\\when.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17153000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 191,
+            "name": "I insert value \"T2\".\"vehicleDetailsCV\".\"registeredKeeper\" for \"commercial-vehicle.vehicle-details\".\"registeredKeeper\" element",
+            "match": {
+              "location": "step_definitions\\when.js:162"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 192,
+            "name": "I select a list value of \"T2\".\"vehicleDetailsCV\".\"parkingOvernight\" for \"commercial-vehicle.vehicle-details\".\"parkingOvernight\"",
+            "match": {
+              "location": "step_definitions\\when.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1062000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 193,
+            "name": "I select a list value of \"T2\".\"vehicleDetailsCV\".\"typeOfGoodsCarried\" for \"commercial-vehicle.vehicle-details\".\"typeOfGoodsCarried\"",
+            "match": {
+              "location": "step_definitions\\when.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 641000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 194,
+            "name": "I select a list value of \"T2\".\"vehicleDetailsCV\".\"businessRadius\" for \"commercial-vehicle.vehicle-details\".\"businessRadius\"",
+            "match": {
+              "location": "step_definitions\\when.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 587000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 195,
+            "name": "I click on \"riskAddressSameAsCorrespondanceYes\" from \"commercial-vehicle.vehicle-details\"",
+            "match": {
+              "location": "step_definitions\\when.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 196,
+            "name": "I click on \"save\" from \"general.base-page\"",
+            "match": {
+              "location": "step_definitions\\when.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 197,
+            "name": "\"general.base-page\".\"loadingIcon\" shouldnt be present",
+            "match": {
+              "location": "node_modules\\@opengi\\autobot\\lib\\step_definitions\\then.js:174"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1930000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 198,
+            "name": "I click on \"nextButton\" from \"general.base-page\"",
+            "match": {
+              "location": "step_definitions\\when.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 199,
+            "name": "\"general.base-page\".\"loadingIcon\" shouldnt be present",
+            "match": {
+              "location": "node_modules\\@opengi\\autobot\\lib\\step_definitions\\then.js:174"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 661000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 202,
+            "name": "I navigate to the Vehicle Cover screen",
+            "match": {
+              "location": "step_definitions\\given.js:97"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 203,
+            "name": "I select a list value of \"T2\".\"vehicleCoverCV\".\"whoIsToBeInsured\" for \"commercial-vehicle.commercial-vehicle-cover\".\"whoIsToBeInsured\"",
+            "match": {
+              "location": "step_definitions\\when.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 235000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 204,
+            "name": "I select a list value of \"T2\".\"vehicleCoverCV\".\"whatCoverIsRequired\" for \"commercial-vehicle.commercial-vehicle-cover\".\"whatCoverIsRequired\"",
+            "match": {
+              "location": "step_definitions\\when.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 301000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 205,
+            "name": "I insert value \"T2\".\"vehicleCoverCV\".\"ncd\" for \"commercial-vehicle.commercial-vehicle-cover\".\"ncd\" element",
+            "match": {
+              "location": "step_definitions\\when.js:162"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 206,
+            "name": "I select a list value of \"T2\".\"vehicleCoverCV\".\"countryEarned\" for \"commercial-vehicle.commercial-vehicle-cover\".\"countryEarned\"",
+            "match": {
+              "location": "step_definitions\\when.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 408000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 207,
+            "name": "I get value \"T2\".\"vehicleCoverCV\".\"protectedNCD\" than click \"commercial-vehicle.commercial-vehicle-cover\".\"protectedNCDYes\" or \"protectedNCDNo\" on \"general.base-page\" page",
+            "match": {
+              "location": "step_definitions\\when.js:282"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 208,
+            "name": "I select a list value of \"T2\".\"vehicleCoverCV\".\"insurerName\" for \"commercial-vehicle.commercial-vehicle-cover\".\"insurerName\"",
+            "match": {
+              "location": "step_definitions\\when.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 463000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 209,
+            "name": "I click on \"nextButton\" from \"general.base-page\"",
+            "match": {
+              "location": "step_definitions\\when.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 210,
+            "name": "\"general.base-page\".\"loadingIcon\" shouldnt be present",
+            "match": {
+              "location": "node_modules\\@opengi\\autobot\\lib\\step_definitions\\then.js:174"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2216000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 213,
+            "name": "I navigate to the Contact and Marketing screen",
+            "match": {
+              "location": "step_definitions\\given.js:107"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 214,
+            "name": "\"general.base-page\".\"loadingIcon\" shouldnt be present",
+            "match": {
+              "location": "node_modules\\@opengi\\autobot\\lib\\step_definitions\\then.js:174"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 215,
+            "name": "I click on \"finishButton\" from \"general.base-page\"",
+            "match": {
+              "location": "step_definitions\\when.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 216,
+            "name": "\"general.base-page\".\"loadingIcon\" shouldnt be present",
+            "match": {
+              "location": "node_modules\\@opengi\\autobot\\lib\\step_definitions\\then.js:174"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12285000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 219,
+            "name": "I navigate to the Quote Summary Screen",
+            "match": {
+              "location": "step_definitions\\given.js:147"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 220,
+            "name": "I click on \"loadMoreQuoteButton\" which has \" Load more quotes… \" text on quotes from \"general.quote-page\"",
+            "match": {
+              "location": "step_definitions\\when.js:113"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 221,
+            "name": "I choose \"T2\".\"quoteSummary\".\"schemeData\" scheme from \"general.quote-page\" table",
+            "match": {
+              "location": "step_definitions\\when.js:145"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 222,
+            "name": "I wait for \"1\" seconds",
+            "match": {
+              "location": "node_modules\\@opengi\\autobot\\lib\\step_definitions\\when.js:287"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2064000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 223,
+            "name": "I click on \"convertPolicyButton\" from \"general.quote-page\"",
+            "match": {
+              "location": "step_definitions\\when.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 224,
+            "name": "\"general.base-page\".\"loadingIcon\" shouldnt be present",
+            "match": {
+              "location": "node_modules\\@opengi\\autobot\\lib\\step_definitions\\then.js:174"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 653000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 227,
+            "name": "I navigate to the Sale Status screen",
+            "match": {
+              "location": "step_definitions\\given.js:167"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 228,
+            "name": "I wait for \"1\" seconds",
+            "match": {
+              "location": "node_modules\\@opengi\\autobot\\lib\\step_definitions\\when.js:287"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1001000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 229,
+            "name": "I click on \"continueButton\" from \"general.convert-to-policy\"",
+            "match": {
+              "location": "step_definitions\\when.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 230,
+            "name": "\"general.base-page\".\"loadingIcon\" item should be present",
+            "match": {
+              "location": "node_modules\\@opengi\\autobot\\lib\\step_definitions\\then.js:130"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 95000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 231,
+            "name": "\"general.base-page\".\"loadingIcon\" item should be visible",
+            "match": {
+              "location": "node_modules\\@opengi\\autobot\\lib\\step_definitions\\then.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 63000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 232,
+            "name": "\"general.base-page\".\"loadingIcon\" shouldnt be present",
+            "match": {
+              "location": "node_modules\\@opengi\\autobot\\lib\\step_definitions\\then.js:174"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3115000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 235,
+            "name": "I navigate to the Payment Summary screen",
+            "match": {
+              "location": "step_definitions\\given.js:117"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 236,
+            "name": "I select a list value of \"T2\".\"paymnetSummary\".\"paymentPlanData\" for \"general.payment-plan\".\"paymentPlan\"",
+            "match": {
+              "location": "step_definitions\\when.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 204000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 237,
+            "name": "\"general.payment-plan\".\"paymentMethod\" item should be visible",
+            "match": {
+              "location": "node_modules\\@opengi\\autobot\\lib\\step_definitions\\then.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 53000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 238,
+            "name": "I select a payment method on \"T2\".\"general.payment-plan\".\"paymentMethod\" page",
+            "match": {
+              "location": "step_definitions\\when.js:391"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 239,
+            "name": "\"general.payment-plan\".\"paymentMadeBy\" item should be visible",
+            "match": {
+              "location": "node_modules\\@opengi\\autobot\\lib\\step_definitions\\then.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3418000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 240,
+            "name": "I select a list value of \"T2\".\"paymnetSummary\".\"paymentMadeByData\" for \"general.payment-plan\".\"paymentMadeBy\"",
+            "match": {
+              "location": "step_definitions\\when.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 208000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 241,
+            "name": "I insert value \"T2\".\"paymnetSummary\".\"payerData\" for \"general.payment-plan\".\"payer\" element",
+            "match": {
+              "location": "step_definitions\\when.js:162"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 242,
+            "name": "I click on \"nextButton\" from \"general.payment-plan\"",
+            "match": {
+              "location": "step_definitions\\when.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 243,
+            "name": "\"general.base-page\".\"loadingIcon\" shouldnt be present",
+            "match": {
+              "location": "node_modules\\@opengi\\autobot\\lib\\step_definitions\\then.js:174"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4979000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 246,
+            "name": "I navigate to the Record Summary screen",
+            "match": {
+              "location": "step_definitions\\given.js:157"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 247,
+            "name": "\"status\" on \"general.record-summary\" should contain value \"Policy\"",
+            "match": {
+              "location": "step_definitions\\then.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 58000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 248,
+            "name": "I get policy number from \"general.record-summary\" page",
+            "match": {
+              "location": "step_definitions\\when.js:183"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 249,
+            "name": "I wait for \"1\" seconds",
+            "match": {
+              "location": "node_modules\\@opengi\\autobot\\lib\\step_definitions\\when.js:287"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1031000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 250,
+            "name": "I click \"general.base-page\".\"homeButton\"",
+            "match": {
+              "location": "node_modules\\@opengi\\autobot\\lib\\step_definitions\\when.js:89"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 160000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 251,
+            "name": "\"general.base-page\".\"loadingIcon\" item should be present",
+            "match": {
+              "location": "node_modules\\@opengi\\autobot\\lib\\step_definitions\\then.js:130"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 252,
+            "name": "\"general.base-page\".\"loadingIcon\" shouldnt be present",
+            "match": {
+              "location": "node_modules\\@opengi\\autobot\\lib\\step_definitions\\then.js:174"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 555000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "step_definitions\\_hooks.js:169"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,19 @@
+image: node:latest
+stages:
+  - test
+test:
+  stage: test
+  services:
+    - selenium/standalone-chrome
+  script:
+    - npm install
+    - apt-get update && apt-get install libnss3 -y
+    - wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+    - apt install ./google-chrome-stable_current_amd64.deb -y
+    - apt-get install -y default-jdk
+    - npm run test:chrome-headless features/*.feature
+  artifacts:
+      when: always
+      paths:
+        - report
+      expire_in: 1 day

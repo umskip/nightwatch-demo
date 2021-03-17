@@ -1,0 +1,22 @@
+{
+    "cucumberautocomplete.steps": [
+        "step_definitions/*.js",
+        "step_definitions/**/*.js",
+    ],
+    "cucumberautocomplete.syncfeatures": "features/*.feature",
+    "cucumberautocomplete.pages": {
+        "base-page": "page_objects/base-page.js",
+        "action-menu": "page_objects/action-menu.js",
+        "setup-page": "page_objects/setup-page.js",
+        "sign-in": "page_objects/sign-in.js"
+    },
+    "cucumberautocomplete.strictGherkinCompletion": false,
+    "cucumberautocomplete.smartSnippets": true,
+    "cucumberautocomplete.stepsInvariants": true,
+    "editor.quickSuggestions": {
+        "comments": false,
+        "strings": true,
+        "other": true
+    },
+    "json.maxItemsComputed": 60000
+}
